@@ -4,6 +4,8 @@
 If you want to try d8 you can download it compiled for windows via MikeMirzayanov <a href="http://assets.codeforces.com/files/v8-3.32.0.7z">here</a><br><br>
 Post about js on codeforces http://codeforces.com/blog/entry/10024
 
+When you use this library, your code is valid for submitting to codeforces
+
 ```js
 var print = require('lol-io').print
 var readline = require('lol-io').readline
