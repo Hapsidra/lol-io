@@ -28,3 +28,12 @@ $ npm install lol-io
 - automatic creation of <code>input.txt</code>, if it does not exist
 - automatic creation of <code>output.txt</code>, if it does not exist
 
+## How to use
+when you testing locally add code below to the beginning of your file<br>
+```js
+var print = require('lol-io').print
+var readline = require('lol-io').readline
+```
+<br>
+when you want to submit your solution delete the code above
+
