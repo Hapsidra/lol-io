@@ -12,7 +12,7 @@ if (fs.existsSync(inputPath)) {
 }
 else {
     lines = [];
-    fs.openSync(inputPath);
+    fs.openSync(inputPath, 'w');
 }
 
 exports.readline = function() {
