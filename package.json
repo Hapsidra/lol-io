@@ -1,0 +1,30 @@
+{
+  "name": "lol-io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lol-io.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hapsidra/lol-io.git"
+  },
+  "keywords": [
+    "io",
+    "input",
+    "output",
+    "print",
+    "readline",
+    "codeforces",
+    "lol-io",
+    "file",
+    "console"
+  ],
+  "author": "hapsidra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hapsidra/lol-io/issues"
+  },
+  "homepage": "https://github.com/Hapsidra/lol-io#readme"
+}
