@@ -40,5 +40,5 @@ when you testing locally add code below to the beginning of your file<br>
 var print = require('lol-io').print
 var readline = require('lol-io').readline
 ```
-when you want to submit your solution delete the code above
+when you want to submit your solution comment the code above
 
