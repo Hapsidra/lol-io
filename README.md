@@ -24,7 +24,11 @@ Installation is done using the
 $ npm install lol-io
 ```
 
-## Features
+## Functions
+- <code>print()</code> - write line into <code>output.txt</code>, example <code>print('hello', 'world')</code>
+- <code>readline()</code> - read line from <code>input.txt</code>, example <code>var line = readline()</code>, if no more lines return <code>undefined</code>
+
+## Features 
 - automatic creation of <code>input.txt</code>, if it does not exist
 - automatic creation of <code>output.txt</code>, if it does not exist
 
