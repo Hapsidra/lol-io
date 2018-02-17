@@ -2,7 +2,8 @@
 
 <a href="codefores.ru">Codeforces</a> uses d8 debug shell for testing js code. d8 provides IO functions, but if you don't want install d8 and you want testing your solutions using node, use this library.<br><br>
 If you want to try d8 you can download it compiled for windows via MikeMirzayanov <a href="http://assets.codeforces.com/files/v8-3.32.0.7z">here</a><br><br>
-Post about js on codeforces http://codeforces.com/blog/entry/10024
+Post about js on codeforces http://codeforces.com/blog/entry/10024<br>
+Discussing on codeforces http://codeforces.com/blog/entry/57807
 
 When you use this library, your code is valid for submitting to codeforces
 
