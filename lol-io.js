@@ -16,7 +16,7 @@ else {
 }
 
 exports.readline = function() {
-    return lines[index++];
+    return String(lines[index++]);
 }
 
 exports.print = function(){
