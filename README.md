@@ -8,8 +8,8 @@ Discussing on codeforces http://codeforces.com/blog/entry/57807
 When you use this library, your code is valid for submitting to codeforces
 
 ```js
-var print = require('lol-io').print
-var readline = require('lol-io').readline
+//var print = require('lol-io').print
+//var readline = require('lol-io').readline
 print(readline());
 ```
 
