@@ -10,7 +10,7 @@ When you use this library, your code is valid for submitting to codeforces
 ```js
 //var print = require('lol-io').print
 //var readline = require('lol-io').readline
-print(readline());
+print(readline())
 ```
 
 ## Installation
