@@ -44,3 +44,7 @@ print(+s[0] + +s[1]);
 or
 
 https://codeforces.com/contest/271/submission/58961340
+
+or you can submit your solutions without any libs directly to node.js instead javascript v8. just select node.js in compilers list. here's example:
+
+https://codeforces.com/contest/271/submission/58962831
