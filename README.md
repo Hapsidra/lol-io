@@ -7,17 +7,6 @@ Discussing on codeforces http://codeforces.com/blog/entry/57807
 
 When you use this library, your code is valid for submitting to codeforces
 
-# Example
-
-```js
-var print = this.print || require('lol-io').print
-var write = this.write || require('lol-io').write
-var readline = this.readline || require('lol-io').readline
-// a + b
-const s = readline().split(' ')
-print(+s[0] + +s[1]);
-```
-
 ## Installation
 
 This is a [Node.js](https://nodejs.org/en/) module available through the
@@ -40,3 +29,18 @@ $ npm install lol-io
 ## Features 
 - automatic creation of <code>input.txt</code> and <code>output.txt</code>, if does not exist
 
+
+# Examples
+
+```js
+var print = this.print || require('lol-io').print
+var write = this.write || require('lol-io').write
+var readline = this.readline || require('lol-io').readline
+// a + b
+const s = readline().split(' ')
+print(+s[0] + +s[1]);
+```
+
+or
+
+https://codeforces.com/contest/271/submission/58961340
