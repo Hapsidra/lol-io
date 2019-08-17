@@ -4,7 +4,7 @@
   "description": "",
   "main": "lol-io.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/Hapsidra/lol-io/issues"
   },
-  "homepage": "https://github.com/Hapsidra/lol-io#readme"
+  "homepage": "https://github.com/Hapsidra/lol-io#readme",
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  }
 }

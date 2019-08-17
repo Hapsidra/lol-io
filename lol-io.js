@@ -1,28 +1,21 @@
-var fs = require('fs');
-
+const fs = require('fs');
 const inputPath = 'input.txt';
 const outputPath = 'output.txt';
 
 fs.writeFileSync(outputPath, '');
+if (!fs.existsSync(inputPath)) fs.openSync(inputPath, 'w');
 
-var index = 0;
-var lines;
-if (fs.existsSync(inputPath)) {
-    lines = fs.readFileSync('input.txt', 'utf8').split('\n');
-}
-else {
-    lines = [];
-    fs.openSync(inputPath, 'w');
-}
+let index = 0;
+const lines = fs.readFileSync(inputPath, 'utf8').split('\n');
 
-exports.readline = function() {
-    return String(lines[index++]);
-}
-
-exports.print = function(){
-    var result = '';
-    for(var i = 0; i < arguments.length; i++){
-        result += arguments[i] + ' ';
+module.exports = {
+    readline() {
+        return String(lines[index++]);
+    },
+    print(...args) {
+        fs.appendFileSync(outputPath, args.join(' ') + '\n', 'utf8');
+    },
+    write(...args) {
+        fs.appendFileSync(outputPath, args.join(' '), 'utf8');
     }
-    fs.appendFileSync(outputPath, result + '\n', 'utf8');
 }
